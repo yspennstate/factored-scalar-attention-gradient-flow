@@ -4,7 +4,7 @@ Yitzchak Shmalo
 
 The paper treats in-context learning of scalar linear regression by L untied linear-attention layers, each with a
 trainable key scalar and a trainable query scalar. Population gradient flow on the 2L factors is bounded and converges
-to a single critical point, and every critical point that is not a global minimizer is a strict saddle. From almost every initialization the
+to a single critical point, and the Hessian has a negative eigenvalue at every critical point that is not a global minimizer. From almost every initialization the
 flow reaches a global minimizer. The trained network performs L gradient descent steps whose step sizes are the
 reciprocals of the zeros of a rescaled Laguerre polynomial.
 
